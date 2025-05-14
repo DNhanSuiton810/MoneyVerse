@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Load data
-df = pd.read_excel('quiz_questions_fully_extended.xlsx')
+df = pd.read_excel('quiz_questions_checked_and_corrected.xlsx')
 
 # Tabs
 tab1, tab2 = st.tabs(["📘 Flashcard (Quizlet Style)", "📝 Làm Quiz"])
